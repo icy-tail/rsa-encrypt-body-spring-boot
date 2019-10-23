@@ -3,29 +3,7 @@
 Spring Boot接口加密，可以对返回值、参数值通过注解的方式自动加解密
 。  
 
- [![](https://img.shields.io/badge/Author-Bobby-ff69b4.svg)]()
 ### 2.使用方法
-**Apache Maven**
-```
-<dependency>
-  <groupId>cn.shuibo</groupId>
-  <artifactId>rsa-encrypt-body-spring-boot</artifactId>
-  <version>1.0.1.RELEASE</version>
-</dependency>
-```
-**Gradle Groovy DSL**
-```
-implementation 'cn.shuibo:rsa-encrypt-body-spring-boot:1.0.1.RELEASE'
-```
-**Gradle Kotlin DSL**、**Scala SBT**、**Apache Ivy**、**Groovy Grape**、**Leiningen**、**Apache Buildr**、**Maven Central Badge**、**PURL**、**Bazel**方式请阅读[Spring Boot接口RSA自动加解密](https://www.shuibo.cn/102.html)
-- **以Maven为例，在pom.xml中引入依赖**  
-```
-<dependency>
-    <groupId>cn.shuibo</groupId>
-    <artifactId>rsa-encrypt-body-spring-boot</artifactId>
-    <version>1.0.1.RELEASE</version>
-</dependency>
-```
 - **启动类Application中添加@EnableSecurity注解**
 
 ```
