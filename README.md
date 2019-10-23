@@ -3,6 +3,7 @@
 Spring Boot接口加密，可以对返回值、参数值通过注解的方式自动加解密
 。  
 
+ [![](https://img.shields.io/badge/Author-Bobby-ff69b4.svg)]()
 ### 2.使用方法
 - **启动类Application中添加@EnableSecurity注解**
 
