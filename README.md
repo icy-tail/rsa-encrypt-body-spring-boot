@@ -1,10 +1,12 @@
 ### 1.介绍
-**rsa-encrypt-body-spring-boot**  
-Spring Boot接口加密，可以对返回值、参数值通过注解的方式自动加解密
-。  
+**rsa-encrypt-spring-boot**  
+Spring Boot接口加密，可以对返回值、参数值通过注解的方式自动加解密。
 
  [![](https://img.shields.io/badge/Author-Bobby-ff69b4.svg)]()
 ### 2.使用方法
+```
+**Gradle Kotlin DSL**、**Scala SBT**、**Apache Ivy**、**Groovy Grape**、**Leiningen**、**Apache Buildr**、**Maven Central Badge**、**PURL**、**Bazel**方式请阅读[Spring Boot接口RSA自动加解密](https://www.shuibo.cn/102.html)
+```
 - **启动类Application中添加@EnableSecurity注解**
 
 ```
@@ -49,3 +51,5 @@ public String Decryption(@RequestBody TestBean testBean){
 ```
 ### 3.About author
 ![](https://ss3.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/super/pic/item/5366d0160924ab18a5f64be03bfae6cd7a890b00.jpg)
+- Blog：https://shuibo.cn
+- Fork：https://github.com/ishuibo/rsa-encrypt-body-spring-boot
