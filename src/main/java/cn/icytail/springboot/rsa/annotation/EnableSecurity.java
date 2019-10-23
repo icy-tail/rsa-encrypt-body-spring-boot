@@ -1,8 +1,9 @@
-package cn.shuibo.annotation;
+package cn.icytail.springboot.rsa.annotation;
 
-import cn.shuibo.advice.EncryptRequestBodyAdvice;
-import cn.shuibo.advice.EncryptResponseBodyAdvice;
-import cn.shuibo.config.SecretKeyConfig;
+import cn.icytail.springboot.rsa.advice.EncryptRequestBodyAdvice;
+import cn.icytail.springboot.rsa.advice.EncryptResponseBodyAdvice;
+import cn.icytail.springboot.rsa.config.SecretKeyConfig;
+
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;

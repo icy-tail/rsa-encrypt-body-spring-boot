@@ -1,7 +1,8 @@
-package cn.shuibo.advice;
+package cn.icytail.springboot.rsa.advice;
 
-import cn.shuibo.annotation.Decrypt;
-import cn.shuibo.config.SecretKeyConfig;
+import cn.icytail.springboot.rsa.annotation.Decrypt;
+import cn.icytail.springboot.rsa.config.SecretKeyConfig;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

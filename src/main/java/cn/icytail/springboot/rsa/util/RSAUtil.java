@@ -1,4 +1,4 @@
-package cn.shuibo.util;
+package cn.icytail.springboot.rsa.util;
 
 import javax.crypto.Cipher;
 import java.io.ByteArrayOutputStream;
@@ -27,7 +27,7 @@ public class RSAUtil{
     /**
      * RSA Maximum decrypted ciphertext size
      */
-    private static final int MAX_DECRYPT_BLOCK = 256;
+    private static final int MAX_DECRYPT_BLOCK = 128;
 
     /**
      * encryption

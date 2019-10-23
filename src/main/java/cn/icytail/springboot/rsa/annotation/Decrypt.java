@@ -1,4 +1,4 @@
-package cn.shuibo.annotation;
+package cn.icytail.springboot.rsa.annotation;
 
 import java.lang.annotation.*;
 

@@ -1,9 +1,10 @@
-package cn.shuibo.advice;
+package cn.icytail.springboot.rsa.advice;
 
-import cn.shuibo.annotation.Encrypt;
-import cn.shuibo.config.SecretKeyConfig;
-import cn.shuibo.util.Base64Util;
-import cn.shuibo.util.RSAUtil;
+import cn.icytail.springboot.rsa.annotation.Encrypt;
+import cn.icytail.springboot.rsa.config.SecretKeyConfig;
+import cn.icytail.springboot.rsa.util.Base64Util;
+import cn.icytail.springboot.rsa.util.RSAUtil;
+
 import com.alibaba.fastjson.JSON;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

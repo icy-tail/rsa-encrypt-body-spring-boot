@@ -1,7 +1,5 @@
-package cn.shuibo.advice;
+package cn.icytail.springboot.rsa.advice;
 
-import cn.shuibo.util.Base64Util;
-import cn.shuibo.util.RSAUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,9 +10,11 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.stream.Collectors;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpInputMessage;
+
+import cn.icytail.springboot.rsa.util.Base64Util;
+import cn.icytail.springboot.rsa.util.RSAUtil;
 
 /**
  * Author:Bobby

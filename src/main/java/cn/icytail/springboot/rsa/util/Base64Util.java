@@ -1,4 +1,4 @@
-package cn.shuibo.util;
+package cn.icytail.springboot.rsa.util;
 
 import org.apache.commons.codec.binary.Base64;
 
