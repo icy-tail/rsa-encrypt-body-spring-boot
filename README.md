@@ -26,6 +26,7 @@ rsa:
     showLog: true # 是否打印加解密log true  or  false
     publicKey: # RSA公钥
     privateKey: # RSA私钥
+    aesHeaderName: # AES键名
 ```
 - **对返回值进行加密**
 
